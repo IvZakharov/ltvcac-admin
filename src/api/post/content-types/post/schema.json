@@ -21,12 +21,12 @@
       "required": true
     },
     "postImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "content": {
       "type": "customField",
@@ -50,6 +50,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "admin::user"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
