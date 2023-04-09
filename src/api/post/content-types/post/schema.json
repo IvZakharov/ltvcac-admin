@@ -41,11 +41,10 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "tag": {
+    "tags": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::tag.tag",
-      "inversedBy": "posts"
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
     },
     "users_permissions_user": {
       "type": "relation",
