@@ -20,11 +20,11 @@
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
       "customField": "plugin::color-picker.color"
     },
-    "post": {
+    "posts": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::post.post",
-      "inversedBy": "tags"
+      "mappedBy": "tag"
     }
   }
 }
