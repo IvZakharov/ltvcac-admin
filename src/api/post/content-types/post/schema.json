@@ -41,9 +41,9 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "tags": {
+    "tag": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::tag.tag",
       "inversedBy": "posts"
     },
