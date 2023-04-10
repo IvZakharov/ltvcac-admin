@@ -42,10 +42,10 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "posts": {
+    "tags": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::post.post"
+      "target": "api::tag.tag"
     }
   }
 }
