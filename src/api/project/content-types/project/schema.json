@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "projectTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
     "slug": {
       "type": "uid"
     },
-    "projectImage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
