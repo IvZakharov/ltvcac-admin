@@ -47,6 +47,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
